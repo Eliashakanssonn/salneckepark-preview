@@ -14,13 +14,14 @@
 <meta property="og:url" content="https://salneckepark.se/">
 <meta property="og:site_name" content="Salnecke Park">
 <meta property="og:image" content="https://salneckepark.se/assets/img/hero-hem-1200.jpg">
-<meta name="theme-color" content="#256F99">
+<meta name="theme-color" content="#F6F3EC">
 <link rel="icon" href="/salneckepark-preview/assets/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="/salneckepark-preview/assets/img/favicon-512.png" sizes="512x512">
 <link rel="apple-touch-icon" href="/salneckepark-preview/assets/img/apple-touch-icon.png">
 <link rel="preload" href="/salneckepark-preview/assets/fonts/baskervville-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/salneckepark-preview/assets/site.css?v=1790774298">
-<script src="/salneckepark-preview/assets/site.js?v=1790774298"></script>
+<link rel="preload" href="/salneckepark-preview/assets/fonts/albert-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/salneckepark-preview/assets/site.css?v=1790774887">
+<script src="/salneckepark-preview/assets/site.js?v=1790774887"></script>
 </head>
 <body>
 <div class="preview-bar">Förhandsvisning av nya salneckepark.se, inte den publicerade webbplatsen. Formulären skickas inte härifrån.</div>
@@ -33,51 +34,93 @@
   </div>
 </header>
 <main id="innehall">
-<div class="hero hero--hem hero--home">
-  <picture>
-    <source media="(min-width: 900px)" srcset="/salneckepark-preview/assets/img/hero-hem-2000.jpg">
-    <img src="/salneckepark-preview/assets/img/hero-hem-1200.jpg" alt="" width="1200" height="900" fetchpriority="high">
-  </picture>
-  
-</div>
-<section class="section intro">
-  <div class="wrap narrow">
+
+<section class="home-hero">
+  <div class="wrap home-hero__text">
+    <p class="eyebrow">Salnecke Park · Örsundsbro, Enköpings kommun</p>
     <h1>En perfekt boplats!</h1>
     <p class="lead">Salnecke park är en perfekt boplats för dig som vill leva nära naturen men ändå behagligt nära all samhällsservice och staden.</p>
-    <p>Örsundsbro ligger i Enköpings kommun och har cirka 1 900 invånare. Salnecke park ligger i den norra delen av samhället och tillhör Gryta församling.</p>
-    <p>I samhället finns det mesta av den vardagliga servicen som butiker, skola, daghem, apotek, bibliotek…</p>
-    <p>Till Enköping är det cirka två mil och till Uppsala cirka tre mil. Kollektivtrafiken fungerar bra och turerna går tätt. Dessutom ligger busshållplatsen bara ett stenkast från Salnecke park. Ett stort plus för dig som pendlar till arbetet.</p>
-    <p>Salnecke Park är ett bostadsområde med 55 villatomter samt 20st hyreslägenheter. Lägenheter förvaltas av EA Förvaltning AB.</p>
-    <p><a class="btn" href="/salneckepark-preview/hyreslagenheter/">Läs mer om hyreslägenheterna</a></p>
+  </div>
+  <picture class="home-hero__img">
+    <source media="(min-width: 900px)" srcset="/salneckepark-preview/assets/img/hero-hem-2000.jpg">
+    <img src="/salneckepark-preview/assets/img/hero-hem-1200.jpg" alt="Grusväg genom grönska och fält i Salnecke Park" width="1200" height="900" fetchpriority="high" decoding="async">
+  </picture>
+</section>
+
+<section class="facts" aria-label="Salnecke Park i siffror">
+  <div class="wrap">
+    <dl class="facts__list">
+      <div><dt>Villatomter</dt><dd>55</dd></div>
+      <div><dt>Hyreslägenheter</dt><dd>20</dd></div>
+      <div><dt>Till Enköping</dt><dd>ca 2 mil</dd></div>
+      <div><dt>Till Uppsala</dt><dd>ca 3 mil</dd></div>
+    </dl>
   </div>
 </section>
-<section class="section section--tint">
-  <div class="wrap">
-    <div class="duo">
-      <figure class="frame"><img src="/salneckepark-preview/assets/img/landskap-malad.jpg" width="899" height="550" alt="Landskap Målad" loading="lazy" decoding="async"></figure>
-      <figure class="frame"><img src="/salneckepark-preview/assets/img/hus.jpg" width="899" height="550" alt="Hus" loading="lazy" decoding="async"></figure>
+
+<section class="section">
+  <div class="wrap feature">
+    <figure class="feature__img">
+      <img src="/salneckepark-preview/assets/img/ek-stig-900.jpg" srcset="/salneckepark-preview/assets/img/ek-stig-900.jpg 900w, /assets/img/ek-stig-1600.jpg 1125w" sizes="(min-width: 900px) 40vw, 100vw" width="900" height="1200" alt="Eklöv över grusvägen i Salnecke Park" loading="lazy" decoding="async">
+    </figure>
+    <div class="feature__text">
+      <p class="eyebrow">Området</p>
+      <h2>Nära naturen, nära staden</h2>
+      <p>Örsundsbro ligger i Enköpings kommun och har cirka 1 900 invånare. Salnecke park ligger i den norra delen av samhället och tillhör Gryta församling.</p>
+      <p>I samhället finns det mesta av den vardagliga servicen som butiker, skola, daghem, apotek, bibliotek…</p>
+      <p>Till Enköping är det cirka två mil och till Uppsala cirka tre mil. Kollektivtrafiken fungerar bra och turerna går tätt. Dessutom ligger busshållplatsen bara ett stenkast från Salnecke park. Ett stort plus för dig som pendlar till arbetet.</p>
+      <p>Salnecke Park är ett bostadsområde med 55 villatomter samt 20st hyreslägenheter. Lägenheter förvaltas av EA Förvaltning AB.</p>
+      <p><a class="link-arrow" href="/salneckepark-preview/hyreslagenheter/">Läs mer om hyreslägenheterna</a></p>
     </div>
+  </div>
+</section>
+
+<section class="gallery" aria-label="Bilder från Salnecke Park">
+  <div class="wrap gallery__grid">
+    <figure class="gallery__a crop"><img src="/salneckepark-preview/assets/img/landskap-malad.jpg" width="899" height="550" alt="Landskap Målad" loading="lazy" decoding="async"></figure>
+    <figure class="gallery__b crop"><img src="/salneckepark-preview/assets/img/hus.jpg" width="899" height="550" alt="Hus" loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+
+<section class="teaser">
+  <div class="wrap teaser__grid">
+    <div>
+      <p class="eyebrow">Hyreslägenheter</p>
+      <h2>Vill du bo i natursköna Salnecke Park?</h2>
+      <p class="teaser__actions"><a class="btn" href="/salneckepark-preview/intresseanmalan/">Lämna intresseanmälan</a> <a class="link-arrow" href="/salneckepark-preview/hyreslagenheter/">Se lägenheterna</a></p>
+    </div>
+    <a class="teaser__img zoom" href="/salneckepark-preview/assets/img/3d-karta.jpg" data-lightbox="3D karta över lägenhetskomplex">
+      <img src="/salneckepark-preview/assets/img/3d-karta-800.jpg" width="800" height="566" alt="3D karta över lägenhetskomplex" loading="lazy" decoding="async">
+    </a>
   </div>
 </section>
 
 </main>
 <footer class="footer">
   <div class="wrap footer__grid">
-    <a class="footer__mark" href="/salneckepark-preview/"><img src="/salneckepark-preview/assets/img/favicon-512.png" width="96" height="96" alt="Salnecke Park" loading="lazy"></a>
-    <address class="footer__contact">
-      <strong>EA Förvaltning AB</strong><br>
-      Torslundavägen 6, Örsundsbro<br>
+    <div class="footer__brand">
+      <a href="/salneckepark-preview/" class="footer__logo"><img src="/salneckepark-preview/assets/img/salnecke-logotyp.png" width="135" height="70" alt="Salnecke Park" loading="lazy"></a>
+      <p>Salnecke Park är ett bostadsområde med 55 villatomter samt 20st hyreslägenheter. Lägenheter förvaltas av EA Förvaltning AB.</p>
+    </div>
+    <div>
+      <h2 class="footer__h">Kontakt</h2>
+      <address>EA Förvaltning AB<br>Torslundavägen 6, Örsundsbro<br>
       Tel: <a href="tel:+46171460710">0171-46 07 10</a><br>
       <a href="mailto:salnecke@lindborgsoner.se">salnecke@lindborgsoner.se</a><br>
-      <a href="https://salneckepark.se">www.salneckepark.se</a>
-    </address>
-    <img class="footer__partner" src="/salneckepark-preview/assets/img/lindborg-ea-forvaltning.png" width="100" height="106" alt="Lindborg EA Förvaltning" loading="lazy">
-  </div>
-  <div class="footer__bar">
-    <div class="wrap footer__bar-inner">
-      <p>© All rights reserved 2026 – Salnecke Park</p>
-      <a href="https://medlem.salneckepark.se/wp-login.php?redirect_to=/">Inloggning</a>
+      <a href="https://salneckepark.se">www.salneckepark.se</a></address>
     </div>
+    <nav aria-label="Sidfot">
+      <h2 class="footer__h">Sidor</h2>
+      <ul><li><a href="/salneckepark-preview/">Salnecke Park</a></li><li><a href="/salneckepark-preview/hyreslagenheter/">Hyreslägenheter</a></li><li><a href="/salneckepark-preview/kontakta/">Kontakta oss</a></li></ul>
+    </nav>
+    <nav aria-label="Hyresgäster">
+      <h2 class="footer__h">Hyreslägenheter</h2>
+      <ul><li><a href="/salneckepark-preview/intresseanmalan/">Intresseanmälan</a></li><li><a href="/salneckepark-preview/felanmalan/">Felanmälan</a></li><li><a href="/salneckepark-preview/hyresgastinformation/">Hyresgästinformation</a></li><li><a href="/salneckepark-preview/autogiroanmalan/">Autogiroanmälan</a></li><li><a href="https://medlem.salneckepark.se/wp-login.php?redirect_to=/">Inloggning</a></li></ul>
+    </nav>
+  </div>
+  <div class="wrap footer__bar">
+    <p>© All rights reserved 2026 – Salnecke Park</p>
+    <img src="/salneckepark-preview/assets/img/lindborg-ea-forvaltning.png" width="48" height="51" alt="Lindborg EA Förvaltning" loading="lazy">
   </div>
 </footer>
 <dialog class="lightbox" aria-label="Förstorad bild"><form data-preview method="dialog"><button class="lightbox__close" aria-label="Stäng">×</button></form><img alt=""><p class="lightbox__cap"></p></dialog>

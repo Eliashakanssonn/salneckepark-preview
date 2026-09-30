@@ -14,13 +14,14 @@
 <meta property="og:url" content="https://salneckepark.se/hyreslagenheter/">
 <meta property="og:site_name" content="Salnecke Park">
 <meta property="og:image" content="https://salneckepark.se/assets/img/hero-hem-1200.jpg">
-<meta name="theme-color" content="#256F99">
+<meta name="theme-color" content="#F6F3EC">
 <link rel="icon" href="/salneckepark-preview/assets/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="/salneckepark-preview/assets/img/favicon-512.png" sizes="512x512">
 <link rel="apple-touch-icon" href="/salneckepark-preview/assets/img/apple-touch-icon.png">
 <link rel="preload" href="/salneckepark-preview/assets/fonts/baskervville-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/salneckepark-preview/assets/site.css?v=1790774298">
-<script src="/salneckepark-preview/assets/site.js?v=1790774298"></script>
+<link rel="preload" href="/salneckepark-preview/assets/fonts/albert-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/salneckepark-preview/assets/site.css?v=1790774887">
+<script src="/salneckepark-preview/assets/site.js?v=1790774887"></script>
 </head>
 <body>
 <div class="preview-bar">Förhandsvisning av nya salneckepark.se, inte den publicerade webbplatsen. Formulären skickas inte härifrån.</div>
@@ -33,18 +34,12 @@
   </div>
 </header>
 <main id="innehall">
-<div class="hero hero--sida">
-  <picture>
-    <source media="(min-width: 900px)" srcset="/salneckepark-preview/assets/img/hero-sida-2000.jpg">
-    <img src="/salneckepark-preview/assets/img/hero-sida-1200.jpg" alt="" width="1200" height="900" fetchpriority="high">
-  </picture>
-  <h1 class="hero__title">Hyreslägenheter</h1>
-</div>
+<header class="pagehead pagehead--image"><div class="wrap"><p class="eyebrow">Salnecke Park, Örsundsbro</p><h1>Hyreslägenheter</h1></div><picture class="pagehead__img"><source media="(min-width: 900px)" srcset="/salneckepark-preview/assets/img/hero-sida-2000.jpg"><img src="/salneckepark-preview/assets/img/hero-sida-1200.jpg" alt="" width="1200" height="900" fetchpriority="high" decoding="async"></picture></header>
 <section class="section">
-  <div class="wrap split">
+  <div class="wrap intro-split">
     <div>
-      <h2 class="h-lg">Vill du bo i natursköna Salnecke Park?</h2>
-      <p class="kicker">Hör av dig till oss!</p>
+      <h2 class="h-display">Vill du bo i natursköna Salnecke Park?</h2>
+      <p class="lead">Hör av dig till oss!</p>
       <p><a class="btn" href="/salneckepark-preview/intresseanmalan/">Lämna intresseanmälan</a></p>
     </div>
     <a class="zoom" href="/salneckepark-preview/assets/img/3d-karta.jpg" data-lightbox="3D karta över lägenhetskomplex">
@@ -52,84 +47,92 @@
     </a>
   </div>
 </section>
-<section class="section section--tint">
-  <div class="wrap narrow">
-    <details class="acc" open>
-      <summary>Allmän information om området</summary>
-      <div class="acc__body">
-        <p>De 20 nybyggda lägenheterna ligger med fin utsikt över Salnecke Park, vyer över åkrar och fält och Örsundaån som rinner förbi nedanför. I närområdet finns fina promenadstråk längs vattnet, och bort mot Salnecke Slott och Gryta kyrka. Lägenheterna ligger endast en kort promenad från Örsundsbro centrum där det finns en Ica butik, restauranger, café och frisör-/hudvårds-salong. I området på andra sidan ån finns det flera butiker med bla. Iittala Outlet, Vardagsrum som är en heminredning och klädesaffär samt färgaffären Örsundsbro Färg som utöver färg även har heminredning.</p>
-        <p>Örsundsbro grundskola F-9 ligger endast 10 minuters gångväg från Salnecke Park och även den lokala Idrottsföreningen ÖIK.</p>
-        <p>Örsundsbro har ett väldigt rikt föreningsliv med någonting för alla åldrar. Den lokala idrottsföreningen ÖIF har ett stort utbud av aktiviteter som exempelvis fotboll, innebandy, handboll, barngymnastik och gruppass med kondition/styrka.</p>
-      </div>
-    </details>
-    <details class="acc">
-      <summary>Lägenheterna</summary>
-      <div class="acc__body">
-        <p>Lägenheterna är byggda i hög standard med öppna planlösningar och väldisponerade ytor. Alla lägenheter har egen ingång från markplan eller från en loftgång, en trappa upp utan hiss.</p>
-        <p>Nedan kan ni se planlösningar och lägenhetsnummer samt storlekar på de olika lägenheterna.</p>
-        <p>El, värme, vatten kommer att faktureras separat efter förbrukning som mäts per lägenhet. Som lägenhetsinnehavare kan man då påverka sin förbrukning och driftskostnad. Detta är enligt Boverkets rekommendationer.</p>
-        <p>Som tillval kommer du att erbjudas möjlighet till bredband, parkeringsplats och parkeringsplats med elbilsladdare. Parkeringsplats och elbilsladdare i mån av tillgång.</p>
-      </div>
-    </details>
+
+<section class="section section--rule">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">20 lägenheter</p>
+      <h2>Utbudet på lägenheter</h2>
+    </div>
+    <table class="units">
+      <thead>
+        <tr><th scope="col">Lägenhet</th><th scope="col">Antal</th><th scope="col">Boyta</th><th scope="col">Kallhyra</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Ett rum och kök</th><td data-label="Antal">4 st totalt</td><td data-label="Boyta">35 kvm</td><td data-label="Kallhyra">7 230 kr</td></tr>
+        <tr><th scope="row">Två rum och kök</th><td data-label="Antal">10 st totalt</td><td data-label="Boyta">53 kvm</td><td data-label="Kallhyra">9 744 kr</td></tr>
+        <tr><th scope="row">Tre rum och kök</th><td data-label="Antal">6 st totalt</td><td data-label="Boyta">70 kvm</td><td data-label="Kallhyra">11 944 kr</td></tr>
+      </tbody>
+    </table>
   </div>
 </section>
-<section class="section">
+
+<section class="section section--paper">
+  <div class="wrap columns">
+    <div>
+      <h2 class="h-sm">Allmän information om området</h2>
+      <p>De 20 nybyggda lägenheterna ligger med fin utsikt över Salnecke Park, vyer över åkrar och fält och Örsundaån som rinner förbi nedanför. I närområdet finns fina promenadstråk längs vattnet, och bort mot Salnecke Slott och Gryta kyrka. Lägenheterna ligger endast en kort promenad från Örsundsbro centrum där det finns en Ica butik, restauranger, café och frisör-/hudvårds-salong. I området på andra sidan ån finns det flera butiker med bla. Iittala Outlet, Vardagsrum som är en heminredning och klädesaffär samt färgaffären Örsundsbro Färg som utöver färg även har heminredning.</p>
+      <p>Örsundsbro grundskola F-9 ligger endast 10 minuters gångväg från Salnecke Park och även den lokala Idrottsföreningen ÖIK.</p>
+      <p>Örsundsbro har ett väldigt rikt föreningsliv med någonting för alla åldrar. Den lokala idrottsföreningen ÖIF har ett stort utbud av aktiviteter som exempelvis fotboll, innebandy, handboll, barngymnastik och gruppass med kondition/styrka.</p>
+    </div>
+    <div>
+      <h2 class="h-sm">Lägenheterna</h2>
+      <p>Lägenheterna är byggda i hög standard med öppna planlösningar och väldisponerade ytor. Alla lägenheter har egen ingång från markplan eller från en loftgång, en trappa upp utan hiss.</p>
+      <p>Nedan kan ni se planlösningar och lägenhetsnummer samt storlekar på de olika lägenheterna.</p>
+      <p>El, värme, vatten kommer att faktureras separat efter förbrukning som mäts per lägenhet. Som lägenhetsinnehavare kan man då påverka sin förbrukning och driftskostnad. Detta är enligt Boverkets rekommendationer.</p>
+      <p>Som tillval kommer du att erbjudas möjlighet till bredband, parkeringsplats och parkeringsplats med elbilsladdare. Parkeringsplats och elbilsladdare i mån av tillgång.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="planritningar">
   <div class="wrap">
-    <h2 class="h-lg center">Utbudet på lägenheter</h2>
-    <ul class="units">
-      <li class="unit">
-        <h3>Ett rum och kök</h3>
-        <p class="unit__count">4st totalt</p>
-        <dl>
-          <div><dt>Boyta:</dt><dd>35kvm</dd></div>
-          <div><dt>Kallhyra:</dt><dd>7 230kr</dd></div>
-        </dl>
-      </li>
-      <li class="unit">
-        <h3>Två rum och kök</h3>
-        <p class="unit__count">10st totalt</p>
-        <dl>
-          <div><dt>Boyta:</dt><dd>53kvm</dd></div>
-          <div><dt>Kallhyra:</dt><dd>9 744kr</dd></div>
-        </dl>
-      </li>
-      <li class="unit">
-        <h3>Tre rum och kök</h3>
-        <p class="unit__count">6st totalt</p>
-        <dl>
-          <div><dt>Boyta:</dt><dd>70kvm</dd></div>
-          <div><dt>Kallhyra:</dt><dd>11 944kr</dd></div>
-        </dl>
-      </li>
-    </ul>
-    <ul class="plans" id="planritningar">
+    <div class="section-head">
+      <p class="eyebrow">Ritningar</p>
+      <h2>Planlösningar och lägenhetsnummer</h2>
+    </div>
+    <ul class="plans">
       <li><a class="zoom" href="/salneckepark-preview/assets/img/planlosning.jpg" data-lightbox="Planlösning"><img src="/salneckepark-preview/assets/img/planlosning-600.jpg" width="424" height="600" alt="Planlösning" loading="lazy" decoding="async"></a><p>Planlösning</p></li>
       <li><a class="zoom" href="/salneckepark-preview/assets/img/vaning-1.jpg" data-lightbox="Våning 1 med lägenhetsnummer"><img src="/salneckepark-preview/assets/img/vaning-1-800.jpg" width="800" height="556" alt="Våning 1 med lägenhetsnummer" loading="lazy" decoding="async"></a><p>Våning 1 med lägenhetsnummer</p></li>
       <li><a class="zoom" href="/salneckepark-preview/assets/img/vaning-2.jpg" data-lightbox="Våning 2 med lägenhetsnummer"><img src="/salneckepark-preview/assets/img/vaning-2-800.jpg" width="800" height="556" alt="Våning 2 med lägenhetsnummer" loading="lazy" decoding="async"></a><p>Våning 2 med lägenhetsnummer</p></li>
       <li><a class="zoom" href="/salneckepark-preview/assets/img/omradeskarta.jpg" data-lightbox="Områdeskarta"><img src="/salneckepark-preview/assets/img/omradeskarta-800.jpg" width="800" height="566" alt="Områdeskarta" loading="lazy" decoding="async"></a><p>Områdeskarta</p></li>
     </ul>
-    <p class="center"><a class="btn" href="/salneckepark-preview/intresseanmalan/">Lämna intresseanmälan</a></p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap cta__inner">
+    <h2>Vill du bo i Salnecke Park?</h2>
+    <a class="btn btn--light" href="/salneckepark-preview/intresseanmalan/">Lämna intresseanmälan</a>
   </div>
 </section>
 
 </main>
 <footer class="footer">
   <div class="wrap footer__grid">
-    <a class="footer__mark" href="/salneckepark-preview/"><img src="/salneckepark-preview/assets/img/favicon-512.png" width="96" height="96" alt="Salnecke Park" loading="lazy"></a>
-    <address class="footer__contact">
-      <strong>EA Förvaltning AB</strong><br>
-      Torslundavägen 6, Örsundsbro<br>
+    <div class="footer__brand">
+      <a href="/salneckepark-preview/" class="footer__logo"><img src="/salneckepark-preview/assets/img/salnecke-logotyp.png" width="135" height="70" alt="Salnecke Park" loading="lazy"></a>
+      <p>Salnecke Park är ett bostadsområde med 55 villatomter samt 20st hyreslägenheter. Lägenheter förvaltas av EA Förvaltning AB.</p>
+    </div>
+    <div>
+      <h2 class="footer__h">Kontakt</h2>
+      <address>EA Förvaltning AB<br>Torslundavägen 6, Örsundsbro<br>
       Tel: <a href="tel:+46171460710">0171-46 07 10</a><br>
       <a href="mailto:salnecke@lindborgsoner.se">salnecke@lindborgsoner.se</a><br>
-      <a href="https://salneckepark.se">www.salneckepark.se</a>
-    </address>
-    <img class="footer__partner" src="/salneckepark-preview/assets/img/lindborg-ea-forvaltning.png" width="100" height="106" alt="Lindborg EA Förvaltning" loading="lazy">
-  </div>
-  <div class="footer__bar">
-    <div class="wrap footer__bar-inner">
-      <p>© All rights reserved 2026 – Salnecke Park</p>
-      <a href="https://medlem.salneckepark.se/wp-login.php?redirect_to=/">Inloggning</a>
+      <a href="https://salneckepark.se">www.salneckepark.se</a></address>
     </div>
+    <nav aria-label="Sidfot">
+      <h2 class="footer__h">Sidor</h2>
+      <ul><li><a href="/salneckepark-preview/">Salnecke Park</a></li><li><a href="/salneckepark-preview/hyreslagenheter/">Hyreslägenheter</a></li><li><a href="/salneckepark-preview/kontakta/">Kontakta oss</a></li></ul>
+    </nav>
+    <nav aria-label="Hyresgäster">
+      <h2 class="footer__h">Hyreslägenheter</h2>
+      <ul><li><a href="/salneckepark-preview/intresseanmalan/">Intresseanmälan</a></li><li><a href="/salneckepark-preview/felanmalan/">Felanmälan</a></li><li><a href="/salneckepark-preview/hyresgastinformation/">Hyresgästinformation</a></li><li><a href="/salneckepark-preview/autogiroanmalan/">Autogiroanmälan</a></li><li><a href="https://medlem.salneckepark.se/wp-login.php?redirect_to=/">Inloggning</a></li></ul>
+    </nav>
+  </div>
+  <div class="wrap footer__bar">
+    <p>© All rights reserved 2026 – Salnecke Park</p>
+    <img src="/salneckepark-preview/assets/img/lindborg-ea-forvaltning.png" width="48" height="51" alt="Lindborg EA Förvaltning" loading="lazy">
   </div>
 </footer>
 <dialog class="lightbox" aria-label="Förstorad bild"><form data-preview method="dialog"><button class="lightbox__close" aria-label="Stäng">×</button></form><img alt=""><p class="lightbox__cap"></p></dialog>

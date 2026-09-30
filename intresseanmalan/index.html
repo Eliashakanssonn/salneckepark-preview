@@ -14,13 +14,14 @@
 <meta property="og:url" content="https://salneckepark.se/intresseanmalan/">
 <meta property="og:site_name" content="Salnecke Park">
 <meta property="og:image" content="https://salneckepark.se/assets/img/hero-hem-1200.jpg">
-<meta name="theme-color" content="#256F99">
+<meta name="theme-color" content="#F6F3EC">
 <link rel="icon" href="/salneckepark-preview/assets/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="/salneckepark-preview/assets/img/favicon-512.png" sizes="512x512">
 <link rel="apple-touch-icon" href="/salneckepark-preview/assets/img/apple-touch-icon.png">
 <link rel="preload" href="/salneckepark-preview/assets/fonts/baskervville-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/salneckepark-preview/assets/site.css?v=1790774298">
-<script src="/salneckepark-preview/assets/site.js?v=1790774298"></script>
+<link rel="preload" href="/salneckepark-preview/assets/fonts/albert-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/salneckepark-preview/assets/site.css?v=1790774887">
+<script src="/salneckepark-preview/assets/site.js?v=1790774887"></script>
 </head>
 <body>
 <div class="preview-bar">Förhandsvisning av nya salneckepark.se, inte den publicerade webbplatsen. Formulären skickas inte härifrån.</div>
@@ -33,37 +34,39 @@
   </div>
 </header>
 <main id="innehall">
-<div class="hero hero--sida">
-  <picture>
-    <source media="(min-width: 900px)" srcset="/salneckepark-preview/assets/img/hero-sida-2000.jpg">
-    <img src="/salneckepark-preview/assets/img/hero-sida-1200.jpg" alt="" width="1200" height="900" fetchpriority="high">
-  </picture>
-  <h1 class="hero__title">Intresseanmälan</h1>
-</div>
-<section class="section">
+<header class="pagehead"><div class="wrap"><p class="eyebrow">Hyreslägenheter</p><h1>Intresseanmälan</h1></div></header>
+<section class="section section--tight">
   <div class="wrap narrow">
-    <h2 class="h-lg">Fyll i nedanstående formulär så ser vi till att du kan följa händelseutvecklingen kring området och försäljningen.</h2><form data-preview class="form" method="post" action="/salneckepark-preview/form/skicka.php" data-form><input type="hidden" name="formular" value="intresseanmalan"><div class="hp" aria-hidden="true"><label>Lämna tomt <input type="text" name="webbplats" tabindex="-1" autocomplete="off"></label></div><div class="form__grid"><div class="field field--half"><label for="intresseanmalan-fornamn">Förnamn <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-fornamn" name="fornamn" required autocomplete="given-name" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-efternamn">Efternamn <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-efternamn" name="efternamn" required autocomplete="family-name" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-epost">E-post <span class="req" aria-hidden="true">*</span></label><input type="email" id="intresseanmalan-epost" name="epost" required autocomplete="email" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-telefon">Telefonnummer utan bindestreck</label><input type="tel" id="intresseanmalan-telefon" name="telefon" autocomplete="tel" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-fodelsedatum">Födelsedatum <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-fodelsedatum" name="fodelsedatum" required placeholder="ÅÅMMDD" pattern="[0-9]{6}" inputmode="numeric" maxlength="6" title="Sex siffror, ÅÅMMDD" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-arsinkomst">Årsinkomst inkl. studiebidrag/försörjningsstöd <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-arsinkomst" name="arsinkomst" required maxlength="200"></div><div class="field"><label for="intresseanmalan-adress">Nuvarande adress (gatuadress, postnr och ort) <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-adress" name="adress" required autocomplete="street-address" maxlength="200"></div><fieldset class="field group" data-required-group><legend>Hur stor lägenhet vill du ha? <span class="req" aria-hidden="true">*</span></legend><div class="choices"><label class="choice"><input type="checkbox" name="storlek[]" value="Etta"> Etta</label><label class="choice"><input type="checkbox" name="storlek[]" value="Tvåa"> Tvåa</label><label class="choice"><input type="checkbox" name="storlek[]" value="Trea"> Trea</label></div></fieldset><div class="field"><label for="intresseanmalan-lagenhetsnummer">Önskat lägenhetsnummer (se bild)</label><input type="text" id="intresseanmalan-lagenhetsnummer" name="lagenhetsnummer" maxlength="200"><div class="field__plans"><a class="zoom" href="/salneckepark-preview/assets/img/vaning-1.jpg" data-lightbox="Våning 1 med lägenhetsnummer"><img src="/salneckepark-preview/assets/img/vaning-1-800.jpg" width="800" height="556" alt="Våning 1 med lägenhetsnummer" loading="lazy"></a><a class="zoom" href="/salneckepark-preview/assets/img/vaning-2.jpg" data-lightbox="Våning 2 med lägenhetsnummer"><img src="/salneckepark-preview/assets/img/vaning-2-800.jpg" width="800" height="556" alt="Våning 2 med lägenhetsnummer" loading="lazy"></a></div></div><fieldset class="field group"><legend>Kan du flytta in omgående? <span class="req" aria-hidden="true">*</span></legend><div class="choices"><label class="choice"><input type="radio" name="omgaende" value="Ja" required> Ja</label><label class="choice"><input type="radio" name="omgaende" value="Nej" required> Nej</label></div></fieldset><div class="field"><label for="intresseanmalan-inflytt">Om Nej, När önskar du flytta in?</label><input type="text" id="intresseanmalan-inflytt" name="inflytt" placeholder="Exempel 21/01/23" maxlength="200"></div><fieldset class="field group"><legend>Elbilsladdare</legend><label class="choice"><input type="checkbox" name="elbilsladdare" value="Ja"> Jag är intresserad av elbilsladdare</label></fieldset><fieldset class="field group"><legend>Husdjur</legend><label class="choice"><input type="checkbox" name="husdjur" value="Ja"> Jag vill ha husdjur i min lägenhet</label></fieldset><div class="field"><label for="intresseanmalan-meddelande">Meddelande</label><textarea id="intresseanmalan-meddelande" name="meddelande" rows="6" maxlength="5000"></textarea></div></div><p class="form__note">Fält markerade med <span class="req">*</span> är obligatoriska. Uppgifterna skickas till EA Förvaltning AB och används bara för att hantera ditt ärende. De sparas inte på webbplatsen.</p><p class="form__error" role="alert" hidden></p><button class="btn" type="submit">Skicka</button></form>
+    <p class="form__intro">Fyll i nedanstående formulär så ser vi till att du kan följa händelseutvecklingen kring området och försäljningen.</p><form data-preview class="form" method="post" action="/salneckepark-preview/form/skicka.php" data-form><input type="hidden" name="formular" value="intresseanmalan"><div class="hp" aria-hidden="true"><label>Lämna tomt <input type="text" name="webbplats" tabindex="-1" autocomplete="off"></label></div><div class="form__grid"><div class="field field--half"><label for="intresseanmalan-fornamn">Förnamn <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-fornamn" name="fornamn" required autocomplete="given-name" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-efternamn">Efternamn <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-efternamn" name="efternamn" required autocomplete="family-name" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-epost">E-post <span class="req" aria-hidden="true">*</span></label><input type="email" id="intresseanmalan-epost" name="epost" required autocomplete="email" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-telefon">Telefonnummer utan bindestreck</label><input type="tel" id="intresseanmalan-telefon" name="telefon" autocomplete="tel" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-fodelsedatum">Födelsedatum <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-fodelsedatum" name="fodelsedatum" required placeholder="ÅÅMMDD" pattern="[0-9]{6}" inputmode="numeric" maxlength="6" title="Sex siffror, ÅÅMMDD" maxlength="200"></div><div class="field field--half"><label for="intresseanmalan-arsinkomst">Årsinkomst inkl. studiebidrag/försörjningsstöd <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-arsinkomst" name="arsinkomst" required maxlength="200"></div><div class="field"><label for="intresseanmalan-adress">Nuvarande adress (gatuadress, postnr och ort) <span class="req" aria-hidden="true">*</span></label><input type="text" id="intresseanmalan-adress" name="adress" required autocomplete="street-address" maxlength="200"></div><fieldset class="field group" data-required-group><legend>Hur stor lägenhet vill du ha? <span class="req" aria-hidden="true">*</span></legend><div class="choices"><label class="choice"><input type="checkbox" name="storlek[]" value="Etta"> Etta</label><label class="choice"><input type="checkbox" name="storlek[]" value="Tvåa"> Tvåa</label><label class="choice"><input type="checkbox" name="storlek[]" value="Trea"> Trea</label></div></fieldset><div class="field"><label for="intresseanmalan-lagenhetsnummer">Önskat lägenhetsnummer (se bild)</label><input type="text" id="intresseanmalan-lagenhetsnummer" name="lagenhetsnummer" maxlength="200"><div class="field__plans"><a class="zoom" href="/salneckepark-preview/assets/img/vaning-1.jpg" data-lightbox="Våning 1 med lägenhetsnummer"><img src="/salneckepark-preview/assets/img/vaning-1-800.jpg" width="800" height="556" alt="Våning 1 med lägenhetsnummer" loading="lazy"></a><a class="zoom" href="/salneckepark-preview/assets/img/vaning-2.jpg" data-lightbox="Våning 2 med lägenhetsnummer"><img src="/salneckepark-preview/assets/img/vaning-2-800.jpg" width="800" height="556" alt="Våning 2 med lägenhetsnummer" loading="lazy"></a></div></div><fieldset class="field group"><legend>Kan du flytta in omgående? <span class="req" aria-hidden="true">*</span></legend><div class="choices"><label class="choice"><input type="radio" name="omgaende" value="Ja" required> Ja</label><label class="choice"><input type="radio" name="omgaende" value="Nej" required> Nej</label></div></fieldset><div class="field"><label for="intresseanmalan-inflytt">Om Nej, När önskar du flytta in?</label><input type="text" id="intresseanmalan-inflytt" name="inflytt" placeholder="Exempel 21/01/23" maxlength="200"></div><fieldset class="field group"><legend>Elbilsladdare</legend><label class="choice"><input type="checkbox" name="elbilsladdare" value="Ja"> Jag är intresserad av elbilsladdare</label></fieldset><fieldset class="field group"><legend>Husdjur</legend><label class="choice"><input type="checkbox" name="husdjur" value="Ja"> Jag vill ha husdjur i min lägenhet</label></fieldset><div class="field"><label for="intresseanmalan-meddelande">Meddelande</label><textarea id="intresseanmalan-meddelande" name="meddelande" rows="6" maxlength="5000"></textarea></div></div><p class="form__error" role="alert" hidden></p><div class="form__foot"><button class="btn" type="submit">Skicka</button><p class="form__note">Fält markerade med <span class="req">*</span> är obligatoriska. Uppgifterna skickas till EA Förvaltning AB och används bara för att hantera ditt ärende. De sparas inte på webbplatsen.</p></div></form>
   </div>
 </section>
 
 </main>
 <footer class="footer">
   <div class="wrap footer__grid">
-    <a class="footer__mark" href="/salneckepark-preview/"><img src="/salneckepark-preview/assets/img/favicon-512.png" width="96" height="96" alt="Salnecke Park" loading="lazy"></a>
-    <address class="footer__contact">
-      <strong>EA Förvaltning AB</strong><br>
-      Torslundavägen 6, Örsundsbro<br>
+    <div class="footer__brand">
+      <a href="/salneckepark-preview/" class="footer__logo"><img src="/salneckepark-preview/assets/img/salnecke-logotyp.png" width="135" height="70" alt="Salnecke Park" loading="lazy"></a>
+      <p>Salnecke Park är ett bostadsområde med 55 villatomter samt 20st hyreslägenheter. Lägenheter förvaltas av EA Förvaltning AB.</p>
+    </div>
+    <div>
+      <h2 class="footer__h">Kontakt</h2>
+      <address>EA Förvaltning AB<br>Torslundavägen 6, Örsundsbro<br>
       Tel: <a href="tel:+46171460710">0171-46 07 10</a><br>
       <a href="mailto:salnecke@lindborgsoner.se">salnecke@lindborgsoner.se</a><br>
-      <a href="https://salneckepark.se">www.salneckepark.se</a>
-    </address>
-    <img class="footer__partner" src="/salneckepark-preview/assets/img/lindborg-ea-forvaltning.png" width="100" height="106" alt="Lindborg EA Förvaltning" loading="lazy">
-  </div>
-  <div class="footer__bar">
-    <div class="wrap footer__bar-inner">
-      <p>© All rights reserved 2026 – Salnecke Park</p>
-      <a href="https://medlem.salneckepark.se/wp-login.php?redirect_to=/">Inloggning</a>
+      <a href="https://salneckepark.se">www.salneckepark.se</a></address>
     </div>
+    <nav aria-label="Sidfot">
+      <h2 class="footer__h">Sidor</h2>
+      <ul><li><a href="/salneckepark-preview/">Salnecke Park</a></li><li><a href="/salneckepark-preview/hyreslagenheter/">Hyreslägenheter</a></li><li><a href="/salneckepark-preview/kontakta/">Kontakta oss</a></li></ul>
+    </nav>
+    <nav aria-label="Hyresgäster">
+      <h2 class="footer__h">Hyreslägenheter</h2>
+      <ul><li><a href="/salneckepark-preview/intresseanmalan/">Intresseanmälan</a></li><li><a href="/salneckepark-preview/felanmalan/">Felanmälan</a></li><li><a href="/salneckepark-preview/hyresgastinformation/">Hyresgästinformation</a></li><li><a href="/salneckepark-preview/autogiroanmalan/">Autogiroanmälan</a></li><li><a href="https://medlem.salneckepark.se/wp-login.php?redirect_to=/">Inloggning</a></li></ul>
+    </nav>
+  </div>
+  <div class="wrap footer__bar">
+    <p>© All rights reserved 2026 – Salnecke Park</p>
+    <img src="/salneckepark-preview/assets/img/lindborg-ea-forvaltning.png" width="48" height="51" alt="Lindborg EA Förvaltning" loading="lazy">
   </div>
 </footer>
 <dialog class="lightbox" aria-label="Förstorad bild"><form data-preview method="dialog"><button class="lightbox__close" aria-label="Stäng">×</button></form><img alt=""><p class="lightbox__cap"></p></dialog>
