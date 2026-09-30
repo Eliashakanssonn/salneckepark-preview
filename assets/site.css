@@ -213,16 +213,6 @@ h3 { font-size: 1.5rem; }
 .feature__text { max-width: 560px; }
 @media (max-width: 860px) { .feature { grid-template-columns: 1fr; } .feature__img img { aspect-ratio: 4 / 3; } }
 
-.gallery { padding-bottom: clamp(64px, 9vw, 128px); }
-.gallery__grid { display: grid; grid-template-columns: 7fr 5fr; gap: clamp(16px, 2.5vw, 32px); align-items: start; }
-.gallery__grid img { width: 100%; aspect-ratio: 899 / 550; object-fit: cover; }
-/* Both illustrations have feathered white edges and a "SALNECKE" watermark baked
-   into the top. Scaling from the lower middle crops both off without editing the files. */
-.crop { overflow: hidden; }
-.crop img { transform: scale(1.24); transform-origin: 50% 72%; }
-.gallery__b { margin-top: clamp(40px, 10vw, 140px); }
-@media (max-width: 700px) { .gallery__grid { grid-template-columns: 1fr; } .gallery__b { margin-top: 0; } }
-
 .teaser { background: var(--paper); padding: clamp(64px, 9vw, 120px) 0; }
 .teaser__grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(32px, 6vw, 96px); align-items: center; }
 .teaser h2 { max-width: 16ch; }
